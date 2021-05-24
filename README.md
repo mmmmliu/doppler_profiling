@@ -43,7 +43,7 @@ The receiver part is implemented in the `AnalyzeFrequency.java` class. The acous
 
 ### Send data
 
-The sending daya part is implented in the 'MyHttpConnection.java' class. 
+The sending data part is implented in the 'MyHttpConnection.java' class. Target data can be sent to a server based on http requests.
 
 
 ## More Details
