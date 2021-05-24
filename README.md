@@ -5,7 +5,8 @@
 
 Illustrating acoustic Doppler effect and relative velocity using Android phones
 
-Sender: Emitting inaudible sounds. Three sender can be supported in current version. Each sender uses a frequency to emit sounds. Different senders use different frequencies.
+Sender: Emitting inaudible sounds. Three senders can be supported in current version. Each sender uses a frequency to emit sounds. Different senders use different frequencies.
+
 Receiver: calculating and displaying the relative velocity between sender and receiver
 
 <!-- ## Screenshot
