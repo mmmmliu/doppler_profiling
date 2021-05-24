@@ -20,7 +20,7 @@ Receiver: calculating and displaying the relative velocity between sender and re
 It has mainly three components. One for transmitting signals, one for analyzing received signals, and another one for sending data to the server. 
 
 ### Sender
-The sender part is implemented in the `PlaySound.java` class, which emits sounds of a single frequency. Three phones are set as sender 1, sender 2, sender 3 to  sends out sounds. The frequency of them are 18.5 KHz, 19.5KHz and 20.5KHz. You can easily change to other frequencies if you like. You can easily change to other frequencies if you like. You can also define more senders as long as they use different frequency bands. 
+The sender part is implemented in the `PlaySound.java` class, which emits sounds of a single frequency. Three phones are set as sender 1, sender 2, sender 3 to  send out sounds. The frequency of them are 18.5 KHz, 19.5KHz and 20.5KHz. You can easily change to other frequencies if you like. You can also define more senders as long as they use different frequency bands. 
 
 ### Receiver
 The receiver part is implemented in the `AnalyzeFrequency.java` class. The acoustic signals go through the following processing
