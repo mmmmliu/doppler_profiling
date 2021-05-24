@@ -25,21 +25,21 @@ The sender part is implemented in the `PlaySound.java` class, which emits sounds
 ### Receiver
 The receiver part is implemented in the `AnalyzeFrequency.java` class. The acoustic signals go through the following processing
 
-1)  receive sounds. See my repo [dtc-acoustic-spectrumer]
+1)  Receive sounds. 
 
-2)  filtering. We apply a bandpass filter that only allows signals within \[18KHz, 21KHz\]. There is a very convenient Android app named *FIR Filter Designer* that can generate Java code for you. The higher order of filters causes greater computation overhead.
+2)  Filtering. We apply a bandpass filter that only allows signals within \[18KHz, 21KHz\]. There is a very convenient Android app named *FIR Filter Designer* that can generate Java code for you. The higher order of filters causes greater computation overhead.
 
-2)  undersampling and overlapping. Undersampling is applied to increase the frequency resolution and overlapping is used to increase temporal fidelity. We use 8X undersampling and 0.875 overlapping.
+2)  Undersampling and overlapping. Undersampling is applied to increase the frequency resolution and overlapping is used to increase temporal fidelity. We use 8X undersampling and 0.875 overlapping.
 
-3)  window function. We apply Blackman-Harris window to smooth the spectrum. You can try other window functions as well. <https://en.wikipedia.org/wiki/Window_function>
+3)  Window function. We apply Blackman-Harris window to smooth the spectrum. You can try other window functions as well. <https://en.wikipedia.org/wiki/Window_function>
 
-4)  Fast-Fourier Transform (FFT). See my repo [dtc-acoustic-spectrumer]
+4)  Fast-Fourier Transform (FFT). 
 
-5)  calculate Doppler shift. Since we know that the sender's signal is 19 KHz, we only need to calculate the received frequency (with the strongest magnitude) minus 19 KHz.
+5)  Calculate Doppler shift. Since we know that the sender's signal is 19 KHz, we only need to calculate the received frequency (with the strongest magnitude) minus 19 KHz.
 
-6)  caculate relative velocity between a sender and the receiver based on this Euqation ∆v = ∆f*c/fo, ∆f is the frequence offset, c is the speed of sounds, fo is the emitted frequency f
+6)  Caculate relative velocity between a sender and the receiver based on this Euqation ∆v = ∆f*c/fo, ∆f is the frequence offset, c is the speed of sounds, fo is the emitted frequency f
 
-6)  draw relative velocity on screen. See my repo [dtc-acoustic-spectrumer]
+7)  draw relative velocity on screen. 
 
 ### Send data
 
@@ -53,7 +53,7 @@ This repo is based on the following papers and their implementation:
 *   [\[Paper 2\]](https://www.huanlezhang.com/publication/journal/dopenc_tmc_18/paper.pdf) An Acoustic-Based Encounter Profiling System, *published in IEEE Transactions on Mobile Computing (TMC)*, 2018
 *   https://github.com/dtczhl/dtc-doppler-illustrator
 
-Please also consider to cite my papers. Thank you.
+<!-- Please also consider to cite my papers. Thank you. -->
 
 <!-- ## Phones Tested
 *   Huawei Mate 20
