@@ -48,7 +48,7 @@ The sending daya part is implented in the 'MyHttpConnection.java' class.
 
 ## More Details
 
-This repo is based on the following papers and their implementation:  
+This repo is based on the following papers and implementations:  
 *   [\[Paper 1\]](https://www.huanlezhang.com/publication/conference/dopenc_mobicom_16/paper.pdf) DopEnc: Acoustic-based Encounter Profiling Using Smartphones, *published in ACM Conference on Mobile Computing and Networking (MobiCom)*, 2016   
 *   [\[Paper 2\]](https://www.huanlezhang.com/publication/journal/dopenc_tmc_18/paper.pdf) An Acoustic-Based Encounter Profiling System, *published in IEEE Transactions on Mobile Computing (TMC)*, 2018
 *   https://github.com/dtczhl/dtc-doppler-illustrator
