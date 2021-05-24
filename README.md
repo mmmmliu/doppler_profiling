@@ -23,7 +23,7 @@ It has mainly three components. One for transmitting signals, one for analyzing 
 The sender part is implemented in the `PlaySound.java` class, which emits sounds of a single frequency. Three phones are set as sender 1, sender 2, sender 3 to  send out sounds. The frequency of them are 18.5 KHz, 19.5KHz and 20.5KHz. You can easily change to other frequencies if you like. You can also define more senders as long as they use different frequency bands. 
 
 ### Receiver
-The receiver part is implemented in the `AnalyzeFrequency.java` class. The acoustic signals go through the following processing
+The receiver part is implemented in the `AnalyzeFrequency.java` class. The acoustic signals go through the following steps.
 
 1)  Receive sounds. 
 
@@ -39,7 +39,7 @@ The receiver part is implemented in the `AnalyzeFrequency.java` class. The acous
 
 6)  Caculate relative velocity between a sender and the receiver based on this Euqation ∆v = ∆f*c/fo, ∆f is the frequence offset, c is the speed of sounds, fo is the emitted frequency f
 
-7)  draw relative velocity on screen. 
+7)  Draw relative velocity on screen. 
 
 ### Send data
 
